@@ -15,11 +15,6 @@ import com.viaversion.viaversion.api.connection.UserConnection;
 import com.viaversion.viaversion.api.minecraft.ProfileKey;
 import util.DataConsumer;
 
-import java.security.PrivateKey;
-import java.security.Signature;
-import java.security.SignatureException;
-import java.util.UUID;
-import java.util.function.Consumer;
 
 public class ChatSession extends StoredObject {
 
