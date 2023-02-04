@@ -1,5 +1,5 @@
 Secure Chat Profile Key Fetcher
-*The Sole Reason is to Help multiconnect handle chat siging so u can join servers.
+**The Sole Reason is to Help multiconnect handle chat siging so u can join servers.**
 
 This file is part of ViaProxy - https://github.com/RaphiMC/ViaProxy
 Copyright (C) 2023 RK_01/RaphiMC and contributors
