@@ -9,5 +9,6 @@ public class KickStarter implements ModInitializer {
     public void onInitialize() {
         // initialize and load your mod
 
+
     }
 }

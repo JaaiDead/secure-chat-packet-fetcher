@@ -19,6 +19,8 @@ repositories {
 }
 
 dependencies {
+    //Some Implementation Of Text
+    implementation 'net.lenni0451.mcstructs:all:2.1.1'
 
 
     // To change the versions see the gradle.properties file

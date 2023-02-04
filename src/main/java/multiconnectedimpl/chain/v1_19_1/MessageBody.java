@@ -3,7 +3,7 @@ package multiconnectedimpl.chain.v1_19_1;
 //Read Readme.md
 import com.viaversion.viaversion.api.minecraft.PlayerMessageSignature;
 import net.lenni0451.mcstructs.text.serializer.TextComponentSerializer;
-import net.lenni0451.mcstructs.text.utils.JsonUtils;
+import util.JsonUtils;
 import multiconnectedimpl.DecoratableMessage;
 import util.DataConsumer;
 

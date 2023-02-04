@@ -5,7 +5,7 @@ package Session;
 import com.viaversion.viaversion.api.connection.UserConnection;
 import com.viaversion.viaversion.api.minecraft.ProfileKey;
 import net.lenni0451.mcstructs.text.serializer.TextComponentSerializer;
-import net.lenni0451.mcstructs.text.utils.JsonUtils;
+import util.JsonUtils;
 import multiconnectedimpl.DecoratableMessage;
 import multiconnectedimpl.MessageMetadata;
 
