@@ -1,14 +1,15 @@
 package BootEXE;
 
+import Session.ChatSession;
 import net.fabricmc.api.ModInitializer;
 
 
 public class KickStarter implements ModInitializer {
 
     @Override
-    public void onInitialize() {
-        // initialize and load your mod
+    public void onInitialize(){
 
+        }
 
     }
-}
+
