@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "modid",
+  "version": "${version}",
+
+  "name": "SecureChat",
+  "description": "This Mod Is Soleful Purpose is to help secure chat",
+  "authors": [
+    "JaaiDead","ViaVerison"
+  ],
+  "contact": {
+    "homepage": "https://github.com/JaaiDead/secure-chat-packet-fetcher",
+    "sources": "https://github.com/JaaiDead/secure-chat-packet-fetcher"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "Session.ChatSession"
+    ]
+  },
+  "mixins": [
+    "modid.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.11",
+    "fabric-api": "*",
+    "minecraft": "~1.19.3",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "Multiconnect"
+  }
+}
