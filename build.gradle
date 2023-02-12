@@ -21,6 +21,7 @@ repositories {
 dependencies {
     //Some Implementation Of Text
     implementation 'net.lenni0451.mcstructs:all:2.1.1'
+    implementation 'com.javiersc.logger:logger-jvm:0.12.0'
 
 
     // To change the versions see the gradle.properties file
@@ -33,6 +34,10 @@ dependencies {
 
     //ViaVerison
     modImplementation 'com.viaversion:viaversion-api:(4.0.0,5.0.0)'
+
+    //Multiconnect
+    modImplementation('net.earthcomputer.multiconnect:multiconnect:1.6-beta.25') { transitive = false }
+
 }
 
 processResources {

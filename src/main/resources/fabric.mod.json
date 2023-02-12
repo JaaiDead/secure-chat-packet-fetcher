@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
+  "id": "scpf",
+  "version": "${1.0}",
 
   "name": "SecureChat",
   "description": "This Mod Is Soleful Purpose is to help secure chat",
@@ -18,11 +18,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "Session.ChatSession"
+      "BootEXE.KickStarter"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
   ],
 
   "depends": {
